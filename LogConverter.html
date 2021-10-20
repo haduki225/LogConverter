@@ -1,0 +1,21 @@
+<html>
+ <head>
+   <meta http-equiv="content-type" charset="utf-8">
+   <link rel="stylesheet" type="text/css" href="./main.css">
+ </head>
+ <body>
+   <h2>ログコンバータ [ココフォリア→どどんとふ風整形]</h2>
+   <form name="test">
+    <p>
+      コンバートしたいログ（.html）を選択すると、<br>
+      整形後のファイル（ファイル名の頭に [C] がついているファイル）をダウンロードします。<br>
+      動作確認はChromeのみ。（複数選択可）<br>
+    </p>
+    <p>
+    <input type="file" id="logTarget" multiple></p>
+    <input type="checkbox" id="isAll">
+    <label for="isAll">タブ名を残す</label>
+    </form>
+   <script src="./LogConverter.js" ></script>
+ </body>
+</html>
